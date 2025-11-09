@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h3>Danh sách món ăn:</h3>
+    <ul id="foodList">
+      <li>Phở</li>
+      <li>Bún chả</li>
+    </ul>
+
+    <button id="addBtn">Thêm món ăn</button>
+
+    <script>
+      const list = document.getElementById("foodList");
+      const addBtn = document.getElementById("addBtn");
+
+      addBtn.addEventListener("click", () => {
+        const newItem = document.createElement("li");
+        newItem.textContent = "Món mới";
+        list.appendChild(newItem);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Page</h2>
+<p id="demo"></p>
+
+<script>
+document.getElementbyId("Today is sunday");
+document.getElementbyId("demo").style.color="red";
+<script>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript HTML Events</h1>
+<h2>The onclick Attribute</h2>
+
+<p>Click the button to display the date.</p>
+<button >The time is?</button>
+
+<script>
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html>
